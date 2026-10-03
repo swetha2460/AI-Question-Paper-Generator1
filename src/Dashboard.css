@@ -1,0 +1,108 @@
+.dashboard {
+  display: flex;
+  min-height: 100vh;
+  background: #f4f6fb;
+}
+
+.sidebar {
+  width: 250px;
+  background: #1e293b;
+  color: white;
+  padding: 25px 15px;
+}
+
+.sidebar h2 {
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.menu {
+  padding: 13px 15px;
+  margin-bottom: 5px;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+.menu:hover,
+.menu.active {
+  background: #2563eb;
+}
+
+.logout {
+  margin-top: 30px;
+  padding: 13px 15px;
+  cursor: pointer;
+}
+
+.main-content {
+  flex: 1;
+  padding: 40px;
+}
+
+.main-content h1 {
+  font-size: 30px;
+  margin-bottom: 8px;
+}
+
+.main-content p {
+  color: #64748b;
+  margin-bottom: 30px;
+}
+
+.cards {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 20px;
+}
+
+.card {
+  background: white;
+  padding: 25px;
+  border-radius: 12px;
+  box-shadow: 0 3px 12px rgba(0, 0, 0, 0.08);
+}
+
+.card h3 {
+  color: #64748b;
+  margin-bottom: 15px;
+}
+
+.card h2 {
+  font-size: 32px;
+}
+
+/* Dashboard Header */
+
+.top-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 30px;
+}
+
+.top-header h1 {
+  margin-bottom: 5px;
+}
+
+.top-header p {
+  margin: 0;
+}
+
+.faculty-profile {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  background: white;
+  padding: 10px 15px;
+  border-radius: 10px;
+}
+
+.profile-icon {
+  font-size: 28px;
+}
+
+.faculty-profile small {
+  display: block;
+  color: #64748b;
+  margin-top: 3px;
+}
